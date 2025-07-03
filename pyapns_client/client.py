@@ -14,7 +14,7 @@ class APNSClient:
 
     BASE_URLS = {
         MODE_PROD: 'https://api.push.apple.com:443',
-        MODE_DEV: 'https://api.development.push.apple.com:443',
+        MODE_DEV: 'https://api.sandbox.push.apple.com:443',
     }
 
     AUTH_TOKEN_LIFETIME = 45 * 60  # seconds
